@@ -46,7 +46,7 @@ a simple contact form would look like::
                 ]);
         }
 
-        protected function _execute(array $data)
+        public function execute(array $data)
         {
             // Send an email.
             return true;
